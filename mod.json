@@ -2,9 +2,15 @@
   "RULE_VERSION":"20180724",
   "name": "meeting-list",
   "apiDependencies": [
-  {
-    "name": "user-event"
-  }
-]
+	  {
+	    "name": "user-event",
+	    "LINK": [
+	    	{
+	    		"name":"detail",
+	    		"title":"查看详情"
+	    	}
+	    ]
+	  }
+	]
 }
 
