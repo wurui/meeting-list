@@ -1,5 +1,5 @@
 {
-  "RULE_VERSION":"20180724",
+  "RULE_VERSION":"20190428",
   "name": "meeting-list",
   "apiDependencies": [
 	  {
@@ -7,10 +7,12 @@
 	    "LINK": [
 	    	{
 	    		"name":"detail",
-	    		"title":"查看详情"
+	    		"title":"查看详情",
+	    		"target":"meeting-info"
 	    	}
 	    ]
 	  }
-	]
+	],
+  "description":"职位列表，链接到查看详情"
 }
 
